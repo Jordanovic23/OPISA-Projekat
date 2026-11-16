@@ -1,0 +1,67 @@
+# ===== Visual Studio =====
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+
+# ===== Build izlazi =====
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww]in32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+build/
+out/
+
+# ===== Objektni i izvršni fajlovi =====
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+*.pdb
+*.ilk
+*.idb
+*.exp
+*.tlog
+*.lastbuildstate
+*.log
+*.iobj
+*.ipdb
+mavn
+
+# ===== Generisani MIPS kod =====
+# (ukloni ovu liniju ako želiš da output.s ostane u repozitorijumu kao primer)
+Projekat/src/output.s
+
+# ===== Privremeni fajlovi Word dokumenata =====
+~$*.doc
+~$*.docx
+
+# ===== Editori i OS =====
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
