@@ -1,0 +1,10 @@
+_reg r1;
+_reg r2;
+_reg r3;
+
+_func main;
+
+li r1, 5;
+li r2, 10;
+add r3, r1, r2;
+sub r1, r3, r2;

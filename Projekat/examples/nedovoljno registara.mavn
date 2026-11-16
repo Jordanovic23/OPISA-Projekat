@@ -1,0 +1,22 @@
+_reg r1;
+_reg r2;
+_reg r3;
+_reg r4;
+_reg r5;
+_reg r6;
+
+_func main;
+
+li r1, 1;
+li r2, 2;
+li r3, 3;
+li r4, 4;
+li r5, 5;
+
+add r6, r1, r2;
+add r6, r3, r4;
+add r6, r5, r1;
+beq r1, r2, kraj;
+
+kraj:
+nop;
